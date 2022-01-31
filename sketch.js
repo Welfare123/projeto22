@@ -58,7 +58,10 @@ function draw(){
         fada.velocityX = -2;
         fada.velocityY = 0;
       }
-    
+     if (keyDown("up")) {
+        fada.velocityX = 0;
+        fada.velocityY = 0;
+      }
 
 
     drawSprites();
